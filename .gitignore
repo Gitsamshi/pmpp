@@ -1,0 +1,13 @@
+# Ignore files without extensions (no suffix)
+# Ignore all files first
+*
+
+# But keep directories
+!*/
+
+# Keep files with extensions (contain at least one dot)
+!*.*
+
+# Keep this gitignore file
+!.gitignore
+
